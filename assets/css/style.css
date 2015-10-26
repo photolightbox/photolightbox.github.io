@@ -5,6 +5,12 @@
 html, body {
   font-family: "quicksand", Verdana, Tahoma;
 }
+#loading_symbol img{
+	height: 100px;
+	position: fixed;
+	margin-top: 20%;
+	margin-left: 46%;
+}
 .content_wrapper {
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -32,6 +38,11 @@ html, body {
 }
 .navigation_arrow img:hover{
 	cursor:pointer;
+	opacity: 0.7;
+}
+.navigation_arrow img:active{
+	cursor:pointer;
+	opacity: 0.9;
 }
 .image_wrapper {
 	margin: 3%;
