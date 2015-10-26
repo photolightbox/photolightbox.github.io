@@ -9,13 +9,13 @@ https://photolightbox.github.io
 ## Installation
 
 - Open index.html
-- Enter your developer access_token for Instagram
+- Enter your developer access_token for Instagram (or request from linalu001@gmail.com)
 
 ## Contributors
 
 * Lina Lu 
-Email: linalu001@gmail.com
-Twitter: @thelinalu
+- Email: linalu001@gmail.com
+- Twitter: @thelinalu
 
 ## License
 
