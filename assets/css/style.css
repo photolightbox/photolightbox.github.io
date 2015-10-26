@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "quicksand";
+    src: url("../fonts/quicksand/Quicksand-Regular.otf") format("truetype");
+}
+html, body {
+  font-family: "quicksand", Verdana, Tahoma;
+}
+.content_wrapper {
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	align-items: center;
+	-webkit-align-items: center;	
+	justify-content: center;
+	-webkit-justify-content: center;
+}
+#navigation_left_arrow {
+	position:fixed;
+	margin-top: 20%;
+	margin-left: 5%;
+}
+#navigation_right_arrow {
+	position: fixed;
+	margin-top: 20%;
+	margin-right: 5%;
+	right: 0
+}
+.navigation_arrow img{
+	max-height: 100px;
+}
+.navigation_arrow img:hover{
+	cursor:pointer;
+}
+.image_wrapper {
+	margin: 3%;
+	width: 800px;
+	text-align:center;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+	box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.image_wrapper a {
+  text-decoration: none; /* no underline */
+}
+#image_user_name, #image_time, #image_caption {
+	color: black;
+}
+.image_attribute_row_wrapper {
+	height: 0px;
+	margin: 0 auto;
+	width: 500px;
+}
+#image_user_name {
+	float:left;
+}
+#image_time {
+	float:right;
+}
+#image_display_link{
+	height: 500px;
+	margin-top: 2%;
+}
+#image_caption {
+	margin-right: 5%;
+	margin-left: 5%;
+}
