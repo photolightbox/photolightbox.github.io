@@ -28,7 +28,7 @@ html, body {
 	right: 0
 }
 .navigation_arrow img{
-	max-height: 20%;
+	height: 75px;
 }
 .navigation_arrow img:hover{
 	cursor:pointer;
