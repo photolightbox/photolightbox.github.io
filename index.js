@@ -2,7 +2,7 @@
 var config = {};
 
 // Asks user for access_token
-config.access_token = prompt("Please enter the access token to proceed");
+// config.access_token = prompt("Please enter the access token to proceed");
 
 // Initiate object to store current image id, json objects containing image information, image ids and image tags.
 var browserState = {};
